@@ -1,0 +1,12 @@
+C:\Users\Lenovo\source\repos\DapperORMConsoleApplication\DapperORMConsoleApplication\obj\Debug\DapperORMConsoleApplication.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\DapperORMConsoleApplication\DapperORMConsoleApplication\obj\Debug\DapperORMConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\DapperORMConsoleApplication\DapperORMConsoleApplication\bin\Debug\DapperORMConsoleApplication.exe.config
+C:\Users\Lenovo\source\repos\DapperORMConsoleApplication\DapperORMConsoleApplication\bin\Debug\DapperORMConsoleApplication.exe
+C:\Users\Lenovo\source\repos\DapperORMConsoleApplication\DapperORMConsoleApplication\bin\Debug\DapperORMConsoleApplication.pdb
+C:\Users\Lenovo\source\repos\DapperORMConsoleApplication\DapperORMConsoleApplication\bin\Debug\Dapper.dll
+C:\Users\Lenovo\source\repos\DapperORMConsoleApplication\DapperORMConsoleApplication\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Lenovo\source\repos\DapperORMConsoleApplication\DapperORMConsoleApplication\bin\Debug\Dapper.xml
+C:\Users\Lenovo\source\repos\DapperORMConsoleApplication\DapperORMConsoleApplication\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Lenovo\source\repos\DapperORMConsoleApplication\DapperORMConsoleApplication\obj\Debug\DapperORMConsoleApplication.csproj.CopyComplete
+C:\Users\Lenovo\source\repos\DapperORMConsoleApplication\DapperORMConsoleApplication\obj\Debug\DapperORMConsoleApplication.exe
+C:\Users\Lenovo\source\repos\DapperORMConsoleApplication\DapperORMConsoleApplication\obj\Debug\DapperORMConsoleApplication.pdb
