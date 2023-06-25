@@ -8,7 +8,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 
-namespace DapperORMConsoleApplication.Data.Entities
+namespace DapperORMConsoleApplication.Data.Repository
 {
     public class CategoryRepository
     {
@@ -17,6 +17,17 @@ namespace DapperORMConsoleApplication.Data.Entities
         public CategoryRepository(string connectionString)
         {
             this.connectionString = connectionString;
+        }
+
+        public void DropCategoriesTableIfExists()
+        {
+            using (IDbConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                // Drop table if it exists
+                connection.Execute("DROP TABLE IF EXISTS Categories");
+            }
         }
 
         public void CreateCategoriesTable()

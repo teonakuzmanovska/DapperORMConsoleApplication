@@ -54,6 +54,10 @@
     <Compile Include="Data\Repository\OrderRepository.cs" />
     <Compile Include="Data\Repository\OrderDetailsRepository.cs" />
     <Compile Include="Data\Repository\ProductRepository.cs" />
+    <Compile Include="Service\CategoryService.cs" />
+    <Compile Include="Service\OrderDetailsService.cs" />
+    <Compile Include="Service\OrderService.cs" />
+    <Compile Include="Service\ProductService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

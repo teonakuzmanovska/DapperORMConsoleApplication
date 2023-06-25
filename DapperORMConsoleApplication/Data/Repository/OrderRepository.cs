@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DapperORMConsoleApplication.Data.Entities
+namespace DapperORMConsoleApplication.Data.Repository
 {
     public class OrderRepository
     {
@@ -16,6 +16,17 @@ namespace DapperORMConsoleApplication.Data.Entities
         public OrderRepository(string connectionString)
         {
             this.connectionString = connectionString;
+        }
+
+        public void DropOrdersTableIfExists()
+        {
+            using (IDbConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                // Drop table if it exists
+                connection.Execute("DROP TABLE IF EXISTS Orders");
+            }
         }
 
         public void CreateOrdersTable()
