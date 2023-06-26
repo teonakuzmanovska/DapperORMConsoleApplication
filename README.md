@@ -12,7 +12,7 @@ DapperORMConsoleApplication is a console application that demonstrates the usage
 ## Prerequisites
 
 - .NET Framework 7.4.2 or later
-- SQL Server installed locally or a connection string to a remote SQL Server
+- SQL Server installed locally
 
 
 ## Getting Started
@@ -20,13 +20,13 @@ DapperORMConsoleApplication is a console application that demonstrates the usage
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/DapperORMConsoleApp.git
+   git clone https://github.com/teonakuzmanovska/DapperORMConsoleApplication.git
 
 2. Open the solution in Visual Studio.
 3. Configure the connection string in the App.config file under `<configurations>`:
    ```shell
    connectionString = "your-connection-string";
-4. Create database in your local SQL Server with the name you included in your connection string
+4. Create a local database on SQL Server with the name you included in your connection string
 5. Build the solution to restore NuGet packages.
 6. Run the application.
 
