@@ -23,10 +23,10 @@ DapperORMConsoleApplication is a console application that demonstrates the usage
    git clone https://github.com/teonakuzmanovska/DapperORMConsoleApplication.git
 
 2. Open the solution in Visual Studio.
-3. Configure the connection string in the App.config file under `<configurations>`:
+3. Configure the connection string in the App.config file under `<connectionStrings>`:
    ```shell
    connectionString = "your-connection-string";
-4. Create a local database on SQL Server with the name you included in your connection string
+4. Create a local database on SQL Server with the database name you included in your connection string
 5. Build the solution to restore NuGet packages.
 6. Run the application.
 
